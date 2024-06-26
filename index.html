@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CPS-Nerds</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <header id="header" class="header d-flex align-items-center">
+   
+   <div class="social-links d-none d-md-flex align-items-center">
+      <a href="https://www.youtube.com/channel/UCkH03s0cwvZ-JIiQWLGsGNQ" class="youtube"><i class="bi bi-youtube"></i></a>
+      <a href="https://www.instagram.com/cps.nerds/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61558824609128" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/cpsnerds" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.tiktok.com/@cps.nerds?lang=de-DE" class="tiktok"><i class="bi bi-tiktok"></i></a>
+      <a href="https://github.com/cpsNerds" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/cps-nerds-5b3376307" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+    </div>
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets\img\icons\cps.png" alt="" style="width: 90px; height: 90px;">
+        <h1>Cps Nerds</h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">Über uns</a></li>
+          <li><a href="#portfolio">Projekte</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#blog.html">Vlog</a></li>
+         
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <button id="live-btn"><img src="assets/img/icons/RedDot.svg.png" id="red-icon">Watch Live</button>
+
+      <div id="livestream-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="iframe-container">
+            <iframe id="livestream-frame" src="about:blank" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          </div>
+          <div id="text-and-select-container">
+            <h3>Zu den Streams der Standorte</h3>
+            <p>Wählen Sie einen Standort aus</p>
+            <select class="stream-standorte">
+            </select>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Willkommen bei den <br> <span>Cps Nerds</span></h2>
+          <p>Steuern - Programmieren - Zukunft realiseren</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=OABdLaRd-qY" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets\img\icons\cps.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h4 class="title"><a href="#about" class="stretched-link">Über Uns</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-window-stack"></i></div>
+              <h4 class="title"><a href="#portfolio" class="stretched-link">Projekte</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-buildings"></i></div>
+              <h4 class="title"><a href="#team" class="stretched-link">Team</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-telephone"></i></div>
+              <h4 class="title"><a href="#contact" class="stretched-link">Kontakt</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Über uns</h2>
+          <p>Steuern - Programmieren - Zukunft realiseren</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <!-- <h3>Wir flexen die Pies, bis die Bude qualmt</h3> -->
+            <img src="assets/img/team/Team B.jpg" class="img-fluid rounded-4 mb-4" alt="">
+            <!-- <p>Hi wir sind die CPS-Nerds, es handelt sich hierbei um eine fiktive Firma, die wir im Zuge einer mehrwöchigen Projektarbeit gegründet haben. Unsere Aufgabenstellung ist die Arbeit mit Cyberphysischen Systemen.</p>
+            <p>Beim Prozess von der Entstehung unserer Gruppenarbeit,über die Infrastruktur bis zur Programmierung solcher Systeme (den Abschluss findet der Zusammenbau und die Funktionalität eines RC Autos) möchten wir euch hier mitnehmen. Habt Spaß und lasst uns gerne Kommentare,Likes und Abos auf unseren Social Media Profilen da!!!
+              Eure CPS-Nerds</p> -->
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Hi wir sind die CPS-Nerds, es handelt sich hierbei um eine fiktive Firma, die wir im Zuge einer mehrwöchigen Projektarbeit gegründet haben. Unsere Aufgabenstellung ist die Arbeit mit Cyberphysischen Systemen.
+              </p>
+              
+              <p>
+                Beim Prozess von der Entstehung unserer Gruppenarbeit,über die Infrastruktur bis zur Programmierung solcher Systeme (den Abschluss findet der Zusammenbau und die Funktionalität eines RC Autos) möchten wir euch hier mitnehmen. Habt Spaß und lasst uns gerne Kommentare,Likes und Abos auf unseren Social Media Profilen da!!!
+              Eure CPS-Nerds
+              </p>
+
+              <div class="position-relative mt-4" id="car-spin-div">
+                <img src="assets/img/auto.gif" class="img-fluid rounded-4" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= PiCar Section ======= -->
+    <section id="picar-section" class="picar-section">
+      <div class="container text-center" data-aos="zoom-out">
+        <a href="https://www.youtube.com/shorts/gYGu12RZ14U" class="glightbox play-btn"></a>
+        <h3>Raspberry Pi Smart Car Kit - Picar-4WD</h3>
+        <p>Hier seht ihr einen kurzen Blick auf unser Auto. Bestaunt das gute Stück! </p>
+        <a class="cta-btn" href="https://www.sunfounder.com/products/raspberry-pi-car-robot-kit-4wd">mehr erfahren</a>
+      </div>
+    </section><!-- End PiCar Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Projekte</h2>
+          <br>
+          <p>Hier stellen wir euch einmal Bilder unserer bisherigen Projekte vor</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+          <div>
+            <ul class="portfolio-flters">
+              <li data-filter="*" class="filter-active"></li>
+              
+            
+            </ul><!-- End Portfolio Filters -->
+          </div>
+
+          <div class="row gy-4 portfolio-container">
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/pi-setup-project.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/pi-setup-project.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Projekt 1</a></h4>
+                  <p>Das Einstellen des Raspberry Pi 4 bevor wir ihn ernsthaft nutzen können.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/picar-project.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/picar-project.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Projekt 2</a></h4>
+                  <p>Das Picar-4WD und das Zusammenbauen der Teile!</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/webseiten-project.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/webseiten-project.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Projekt 3</a></h4>
+                  <p>Hier ist eine kleine Übersicht über unsere Webseite.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/active-directory-project.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/active-directory-project.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Projekt 4</a></h4>
+                  <p>Serverinitialisierung mit Benutzer- und Adminverteilung, FTP-Server und co.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/kreativ-project.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/kreativ-project.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Projekt 5</a></h4>
+                  <p>Hier sehen Sie das Kreativprojekt, was das PiCar-Projekt ausbaut.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/social-media-project.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/social-media-project.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Projekt 6</a></h4>
+                  <p>Folgen Sie uns auf den Social-Media-Kanälen, um weitere Neuigkeiten nicht zu verpassen!</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Unser Team</h2>
+          <p>Lernen Sie unsere beiden Teams kennen und wer in den variierenden Bereichen tätig ist.</p>
+        </div>
+        
+        <div id="team1">
+          <h3>Systemadministration</h3>
+        </div><br>
+            <div class="row gy-4">
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                  <img src="assets/img/team/Julian.jpg" class="img-fluid" alt="">
+                  <h4>Julian S.</h4>
+                  <span>Netzwerkadministrator</span>
+                </div>
+                
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                <div class="member">
+                  <img src="assets/img/team/Kevin Niemann.JPG" class="img-fluid" alt="">
+                  <h4>Kevin N.</h4>
+                  <span>Projektmanager</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="member">
+                  <img src="assets/img/team/Carina Baumhoff FISI.jpg" class="img-fluid" alt="">
+                  <h4>Carina B.</h4>
+                  <span>Systemadministrator</span>
+                  
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                <div class="member">
+                  <img src="assets/img/team/Levis.jpg" class="img-fluid" alt="">
+                  <h4>Levi B.</h4>
+                  <span>Systemadministrator</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                <div class="member">
+                  <img src="assets/img/team/Matze.jpg" class="img-fluid" alt="">
+                  <h4>Matthias F.</h4>
+                  <span>Kreativ Ecke</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+                <div class="member">
+                  <img src="assets/img/team/Alexej.jpg" class="img-fluid" alt="">
+                  <h4>Alexej E.</h4>
+                  <span>Social Media Leader</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+                <div class="member">
+                  <img src="assets/img/team/Amiri.jpg" class="img-fluid" alt="">
+                  <h4>Ahmad A.</h4>
+                  <span>Planung und Wartung Netzwerkstruktur</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="800">
+                <div class="member">
+                  <img src="assets/img/team/placeholder.png" class="img-fluid" alt="">
+                  <h4>Tobias L.</h4>
+                  <span>Planung und Wartung Netzwerkstruktur</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="900">
+                <div class="member">
+                  <img src="assets/img/team/Rafet.jpg" class="img-fluid" alt="">
+                  <h4>Rafet S.</h4>
+                  <span>Planung und Wartung Netzwerkstruktur</span>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="1000">
+                <div class="member">
+                  <img src="assets/img/team/Boehm.jpg" class="img-fluid" alt="">
+                  <h4>Christian B.</h4>
+                  <span>Netzwerkadministrator</span>
+                </div>
+              </div><!-- End Team Member -->
+
+            </div>
+
+
+        <div id="team2">
+          <h3>Anwendungsentwicklung</h3>
+        </div><br>
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/Ali-bild.png" class="img-fluid" alt="">
+              <h4>Ali Ö.</h4>
+              <span>Web Developer</span>
+            </div>
+            
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/Erich.png" class="img-fluid" alt="">
+              <h4>Erich B.</h4>
+              <span>Picar-4WD Developer</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/Paddy.PNG" class="img-fluid" alt="">
+              <h4>Patrick K.</h4>
+              <span>Content Creator</span>
+              
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/dom.jpg" class="img-fluid" alt="">
+              <h4>Dominik A.</h4>
+              <span>Picar-4WD Developer</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="member">
+              <img src="assets/img/team/Niccolo Veccari.jpg" class="img-fluid" alt="">
+              <h4>Niccolo V.</h4>
+              <span>Web Developer</span>
+            </div>
+          </div><!-- End Team Member -->
+          
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="member">
+              <img src="assets/img/team/Dennis.jpg" class="img-fluid" alt="">
+              <h4>Dennis R.</h4>
+              <span>Picar-4WD Developer</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+            <div class="member">
+              <img src="assets/img/team/placeholder.png" class="img-fluid" alt="">
+              <h4>Marvin W.</h4>
+              <span>Web Developer</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="800">
+            <div class="member">
+              <img src="assets/img/team/Felix.jpg" class="img-fluid" alt="">
+              <h4>Felix L.</h4>
+              <span>Kreativ Ecke</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="900">
+            <div class="member">
+              <img src="assets/img/team/Sebastian.jpg" class="img-fluid" alt="">
+              <h4>Sebastian S.</h4>
+              <span>Projektmanager</span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="900">
+            <div class="member">
+              <img src="assets/img/team/placeholder.png" class="img-fluid" alt="">
+              <h4>Masih P.</h4>
+              <span>Web Developer</span>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+         
+          
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Vlog</h2>
+          <p>Für uns und für Sie stellen wir Vlogs in diesem Bereich zur Verfügung. Wie wir uns durch unseren Alltag schlagen und was wir sonst zusammenbasteln sehen Sie hier.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/vlog/EinleitungWebseite.jpeg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Vlog #1</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Einleitung Webseite.</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/team/Paddy.PNG" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Patrick Klinkenbuss</p>
+                  <p class="post-date">
+                    <time datetime="2024-05-22">22. Mai 2024</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/vlog/Grayscale.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Vlog #2</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Grayscale</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/team/Felix.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Felix Lenz</p>
+                  <p class="post-date">
+                    <time datetime="2024-05-22">22. Mai 2024</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/vlog/RaspiLED.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Vlog #3</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Raspberry LED</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/team/Paddy.PNG" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Patrick Klinkenbuss</p>
+                  <p class="post-date">
+                    <time datetime="2022-05-22">22.Mai 2024</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Kontakt</h2>
+          <p>Bei Fragen, Anregungen oder ähnlichem lasst uns gerne einmal eine Nachricht da </p>
+        </div>
+
+        <div class="row gx-lg-0 gy-4">
+
+          <div class="col-lg-4">
+
+            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Ort:</h4>
+                  <p>IT-Cluster Rhein-Main-Neckar</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>cps.nerds@web.de</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Tel:</h4>
+                  <p>+49 (0) 810 00 1503</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h4>Arbeitszeiten:</h4>
+                  <p>Mo-Fr: 9:00 - 17:00 Uhr </p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Betreff" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Nachricht" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Die Nachricht wurde versendet.Vielen lieben dank!</div>
+              </div>
+              <div class="text-center"><button type="submit">Nachricht gesendet</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <h2>Cps Nerds</h2>
+          </a>
+          <p><b>Ein schulorientiertes Unternehmen, das Bauprojekte und IT-Lösungen verwirklicht. <br><i>Steuern - Programmieren - Zukunft realisieren</i></b></p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://github.com/cpsNerds"class="github"><i class="bi bi-github"></i></a>
+            <a href="https://twitter.com/cpsnerds"class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.youtube.com/channel/UCkH03s0cwvZ-JIiQWLGsGNQ" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.tiktok.com/@cps.nerds?lang=de-DE" class="tiktok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61558824609128"  class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/cps.nerds/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/cps-nerds-5b3376307" class="linkedin"><i class="bi bi-linkedin"></i></a>
+
+          </div>
+        </div>
+
+
+        
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Kontaktieren Sie uns unter</h4>
+          <p>
+            IT-Cluster Rhein-Main-Neckar <br>
+            <strong>Fon:</strong> +49 (0) 810 00 1503<br>
+            <strong>Email:</strong> cps.nerds@web.de<br>
+          </p>
+
+        </div>
+    
+
+
+        <div class="col-lg-4 col-md-12 footer-web-links text-center text-md-start">
+          <h4>Seitenlinks</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#portfolio">Projekte</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blog.html">Vlog</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            
+          </ul>
+        </div>
+      
+      </div>
+    </div>  
+    
+
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
